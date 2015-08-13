@@ -1,0 +1,32 @@
+{
+  "name": "progress-js",
+  "version": "0.0.1",
+  "description": "progress-js is a js-powered version of the NGP VAN Progress pattern library, built to easily add to js projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NGPVAN/progress-js"
+  },
+  "keywords": [
+    "NGPVAN",
+    "progress",
+    "js",
+    "css"
+  ],
+  "contributors": [
+    "Aharon Wasserman"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NGPVAN/progress-js/issues"
+  },
+  "dependencies": {
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-uglify": "^1.2.0",
+    "require-dir": "^0.3.0"
+  }
+}
