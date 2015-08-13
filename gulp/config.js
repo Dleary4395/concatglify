@@ -4,10 +4,10 @@ var src = "./src";
 module.exports = {
   concatJS: {
     src: src + '/**',
-    dest: src + '/'
+    dest: dest + '/'
   },
   uglify: {
-    src: src + '/scripts.js',
+    src: dest + '/scripts.js',
     dest: dest + '/'
   }
 }
